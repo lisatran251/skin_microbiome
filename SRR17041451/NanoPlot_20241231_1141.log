@@ -1,0 +1,23 @@
+2024-12-31 11:41:07,217 NanoPlot 1.44.0 started with arguments Namespace(threads=4, verbose=False, store=False, raw=False, huge=False, outdir='SRR17041451', no_static=False, prefix='', tsv_stats=False, only_report=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format=['png'], plots=['kde', 'dot'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=False, title=None, font_scale=1, dpi=100, hide_stats=False, fastq=['SRR17041451.fastq'], fasta=None, fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='SRR17041451/')
+2024-12-31 11:41:07,217 Python version is: 3.13.1 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:29:23) [GCC 11.2.0]
+2024-12-31 11:41:07,234 Nanoget: Starting to collect statistics from plain fastq file.
+2024-12-31 11:41:55,754 Reduced DataFrame memory usage from 8.747745513916016Mb to 8.747745513916016Mb
+2024-12-31 11:41:55,805 Nanoget: Gathered all metrics of 573284 reads
+2024-12-31 11:41:56,113 Calculated statistics
+2024-12-31 11:41:56,114 Using sequenced read lengths for plotting.
+2024-12-31 11:41:56,135 NanoPlot:  Valid color #4CB391.
+2024-12-31 11:41:56,136 NanoPlot:  Valid colormap Greens.
+2024-12-31 11:41:56,150 NanoPlot:  Creating length plots for Read length.
+2024-12-31 11:41:56,150 NanoPlot:  Using 573284 reads maximum of 13304bp.
+2024-12-31 11:41:57,687 Saved SRR17041451/WeightedHistogramReadlength  as png (or png for --legacy)
+2024-12-31 11:41:59,026 Saved SRR17041451/WeightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2024-12-31 11:42:00,597 Saved SRR17041451/Non_weightedHistogramReadlength  as png (or png for --legacy)
+2024-12-31 11:42:02,067 Saved SRR17041451/Non_weightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2024-12-31 11:42:04,231 Saved SRR17041451/Yield_By_Length  as png (or png for --legacy)
+2024-12-31 11:42:04,232 Created length plots
+2024-12-31 11:42:04,237 NanoPlot: Creating Read lengths vs Average read quality plots using 573284 reads.
+2024-12-31 11:42:06,653 Saved SRR17041451/LengthvsQualityScatterPlot_dot  as png (or png for --legacy)
+2024-12-31 11:43:31,802 Saved SRR17041451/LengthvsQualityScatterPlot_kde  as png (or png for --legacy)
+2024-12-31 11:43:31,802 Created LengthvsQual plot
+2024-12-31 11:43:31,803 Writing html report.
+2024-12-31 11:43:31,817 Finished!
